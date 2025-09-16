@@ -1,0 +1,16 @@
+{
+  "name": "webfeature-companion",
+  "version": "1.0.0",
+  "description": "VS Code extension + dashboard to help developers adopt modern web features",
+  "main": "vscode-extension/extension.js",
+  "scripts": {
+    "extension": "node vscode-extension/extension.js",
+    "dashboard": "cd dashboard && npm start"
+  },
+  "keywords": ["web", "vscode", "modern-features", "baseline"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
