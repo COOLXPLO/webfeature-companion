@@ -1,4 +1,3 @@
-let a = 5;
-const b = 10;
-
-var c = 15;  
+var oldVar = 5;
+let newVar = 10;
+const data = fetch('/api/data');
